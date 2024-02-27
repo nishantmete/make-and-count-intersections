@@ -1,5 +1,5 @@
 import images
-
+import random
 in_image  = images.load("in.png")
 plane = images.load("plane_image.png")
 
