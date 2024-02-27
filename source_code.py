@@ -1,4 +1,3 @@
-# class excercieses
 import images
 
 in_image  = images.load("in.png")
@@ -46,27 +45,3 @@ print(count_the_intersections(image))
 
 
 
-"""plane_image = [[(0, 0, 0)]* 100 for i in range(100)]
-
-
-def make_a_square(plane_image, row, col, side):
-    try: 
-        for j in range(col, col + side + 1):
-            plane_image[row][j] = (255, 255, 255)
-            plane_image[row + side][j] = (255, 255, 255)
-        
-        for i in range(row, row + side + 1):
-            plane_image[i][col] = (255, 255, 255)
-            plane_image[i][col + side] = (255, 255, 255)
-    except IndexError:
-            print("Sqaure doesn't fit the image! ")
-
-    images.save(plane_image, "plane_image.png")
-make_a_square(plane_image, 80, 80, 19)"""
-
-
-
-
-"""count = 0 
-def count_the_length(a_string):
-    """
