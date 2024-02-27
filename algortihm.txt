@@ -1,0 +1,5 @@
+This code defines a function count_intersections that takes a binary image (a single pixel is represented by three component colours as (r, g, b)) after, using random library it creates white lines on that image and returns the number of intersections in the image. An intersection is defined as a pixel that is white and has four black neighbors (one above, one below, one to the left, and one to the right).
+
+The code works by iterating over each pixel in the image and checking its neighbors. If a pixel is white and has four black neighbors, it is counted as an intersection.
+
+The code also includes a sample image with intersections and calculates the number of intersections in the image.
