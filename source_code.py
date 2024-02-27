@@ -8,17 +8,26 @@ plane = images.load("plane_image.png")
 
 image = [[(0, 0, 0)] * 50 for _ in range(50)]
 
-image[0] = [(255, 255, 255)] * 50
-image[15] = [(255, 255, 255)] * 50
-image[19] = [(255, 255, 255)] * 50
-image[34] = [(255, 255, 255)] * 50
-image[41] = [(255, 255, 255)] * 50
+random_1 = random.randrange(0, 51)
+random_2 = random.randrange(0, 51)
+random_3 = random.randrange(0, 51)
+random_4 = random.randrange(0, 51)
+random_5 = random.randrange(0, 51)
 
-for row in range(len(image)):
-    image[row][0] = (255, 255, 255)
-    image[row][20] = (255, 255, 255)
-    image[row][35] = (255, 255, 255)
-    image[row][45] = (255, 255, 255)
+image = [[(0, 0, 0)] * 50 for _ in range(50)]
+
+image[random_1] = [(255, 255, 255)] * 50
+image[random_2] = [(255, 255, 255)] * 50
+image[random_3] = [(255, 255, 255)] * 50
+image[random_4] = [(255, 255, 255)] * 50
+image[random_5] = [(255, 255, 255)] * 50
+
+for row in range(random_1):
+    image[row][random_5] = (255, 255, 255)
+    image[row][random_1] = (255, 255, 255)
+    image[row][random_3] = (255, 255, 255)
+    image[row][random_2] = (255, 255, 255)
+
 
 images.save(image, "intersection.png")
 
