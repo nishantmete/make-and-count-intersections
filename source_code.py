@@ -6,12 +6,7 @@ plane = images.load("plane_image.png")
 
 
 
-"""
-inlist = images.load("in.png")
-originallist = images.load("expected.png")
 
-print(len(inlist), len(inlist[0]))
-"""
 image = [[(0, 0, 0)] * 50 for _ in range(50)]
 
 image[0] = [(255, 255, 255)] * 50
